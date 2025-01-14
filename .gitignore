@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+tokens.R
 *.html
 *.csv
 *.xlsx
