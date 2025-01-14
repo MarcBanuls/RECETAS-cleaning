@@ -19,3 +19,11 @@ data <- exportRecords(
   form_complete_auto = F
   
 )
+  
+rcon_melbourne <- redcapConnection(url = "https://datacapture.isglobal.org/api/",
+                                     token = melbourne)
+datatest <- exportRecordsTyped(rcon = rcon_melbourne,
+                   forms = "loneliness_t1")
+
+
+
